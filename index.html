@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	 <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <!-- Bootstrap jquery & javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/979b69150e.js" crossorigin="anonymous"></script>
+
+      <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+      <!-- STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+	<title>LIGHTINGHAUS</title>
+</head>
+<body>
+	
+	<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg navbar-dark nav-1 pl-165 pr-165 screen">
+			<ul class="navbar-nav"> 
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-phone-alt mr-10"></i>+234 802 501 8557</a>
+            </li>
+                
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-map-marker-alt mr-10"></i>35 Freedom Way, Lekki Phase 1, Lagos, Nigeria</a>
+            </li>
+                
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-envelope mr-10"></i>sales@thelightinghaus.com</a>
+            </li>
+        </ul>
+	</nav>
+	
+	<nav class="navbar navbar-expand-lg navbar-light pl-165 pr-165 nav-2 hide">
+                <img class="logo" src="images/logo.svg" alt="Logo">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <form class="form-inline pl-344">
+                	<a class="mag mr--30" href=""><img src="https://img.icons8.com/material/24/000000/search--v1.png"/></a>
+                	<input class="ca" type="text" name="search" placeholder="Search for a product, category or space">
+                </form>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item mr-10">
+                  <a class="nav-link ca" href="#"><img src="https://img.icons8.com/material-outlined/24/000000/user--v1.png"/><br>MY ACCOUNT</a>
+                </li>
+                
+                <li class="nav-item mr-10">
+                  <a class="nav-link ca" href="#"><img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/><br>LIST</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link ca" href="#"><img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png"/><br>CART</a>
+                </li>
+              </ul>
+            </div>    
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light pl-165 pr-165 screen">
+			<ul class="navbar-nav ml-auto mr-auto"> 
+            <li class="nav-item-1 mr-42">
+                <a class="nav-link-1" href="#">LIGHTING EXPLORER</a>
+            </li>
+                
+            <li class="nav-item-1 mr-42">
+                <a class="nav-link-1" href="#">OFFICE</a>
+            </li>
+                
+            <li class="nav-item-1 mr-42">
+                <a class="nav-link-1" href="#">HOTEL</a>
+            </li>
+
+            <li class="nav-item-1 mr-42">
+                <a class="nav-link-1" href="#">HOME</a>
+            </li>
+
+            <li class="nav-item mr-42">
+                <a class="nav-link" href="#">ALL PRODUCTS</a>
+            </li>
+
+            <li class="nav-item mr-42">
+                <a class="nav-link" href="#">PENDANT LIGHT</a>
+            </li>
+
+            <li class="nav-item mr-42">
+                <a class="nav-link" href="#">CHANDELIER</a>
+            </li>
+
+            <li class="nav-item mr-42">
+                <a class="nav-link" href="#">SWITCHES & SOCKETS</a>
+            </li>
+
+            <li class="nav-item mr-42">
+                <a class="nav-link" href="#">CEILING LAMP</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">WALL LAMP</a>
+            </li>
+        </ul>
+	</nav>
+	
+	<!-- MOBILE NAVBAR -->
+	<nav class="navbar navbar-expand-lg navbar-light mobile">
+		<div class="row">
+			<div class="col-4 la">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	               <span class="navbar-toggler-icon"></span>
+            	</button>
+			</div>
+			<div class="col-4 ca">
+				<img class="logo" src="images/logo.svg" alt="Logo">
+			</div>
+			<div class="col-4 ra">
+            	<img class="pt-10 pr-20" src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png"/>
+            </div>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item mr-10">
+                  <a class="nav-link ca" href="#"><img src="https://img.icons8.com/material-outlined/24/000000/user--v1.png"/><br>MY ACCOUNT</a>
+                </li>
+                
+                <li class="nav-item mr-10">
+                  <a class="nav-link ca" href="#"><img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/><br>LIST</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link ca" href="#"><img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart.png"/><br>CART</a>
+                </li>
+              </ul>
+            </div>  
+    </nav>
+    	<div class="ca mobile ml-50 mr-50">
+    		<form class="form-inline">
+                	<a class="mag mr--30" href=""><img src="https://img.icons8.com/material/24/000000/search--v1.png"/></a>
+                	<input class="pl-50 ft-24-600" type="text" name="search" placeholder="Search for a product, category or space">
+            </form>
+    	</div>
+
+    		
+              
+
+
+	<!-- HEADER -->
+	<header>
+		<div class="jumbotron screen">
+			<div class="header-text">
+				<h3 class="mb-35 ft-24-600">Explore Our Showroom</h3>
+				<p class="mb-54 pr-75">Not sure of what you're looking for?<br>No worries, use <i class="org fw-600">Ligthing Xplorer</i> to see what you can get</p>
+				<button class="btn btn-dark">Proceed to Lighting Xplorer <i class="fas fa-arrow-right org ml-10"></i></button>
+			</div>
+		</div>
+
+		<div class="ml-50 mr-50 mt-40 mobile">
+				<h3 class="mb-20 ft-40-600">Explore Our Showroom</h3>
+				<p class="mb-20 pr-75 ft-24-600">Not sure of what you're looking for?<br>No worries, use <i class="org fw-600">Ligthing Xplorer</i> to see what you can get</p>
+				<button class="btn btn-dark btn-wide">Proceed to Lighting Xplorer <i class="fas fa-arrow-right org ml-10"></i></button>
+			</div>
+			<hr class="mobile org">
+		
+	</header>
+
+
+	<!-- PRODUCT -->
+	<section>
+		<div>
+			<div class="space container-fluid screen">
+				<div class="row">
+					<div class="col-3">
+						<h3 class="ml--13">Shop By Space</h3>
+					</div>
+					<div class="col-9 view">
+						<a class="org" href="#">view all</a>
+					</div>
+				</div>
+				
+				<p class="ml--13">Select the type of appartment you want to light up</p>
+				<div class="row">
+					<div class="col-4 rec-12">
+						<div class="des">Home</div>
+					</div>
+					<div class="col-4 rec-13">
+						<div class="des">Office</div>
+					</div>
+					<div class="col-4 rec-14">
+						<div class="des">Hotel</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="category pl-165 pr-15 pt-10 screen">
+				<div class="row">
+					<div class="col-3">
+						<h3 class="ml--13">Popular Categories</h3>
+					</div>
+					<div class="col-9 view">
+						<a class="org" href="#">view all</a>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-6 rec-15">
+						<div class="des-2">CEILING LAMPS</div>
+					</div>
+					<div class="col-6 rec-16">
+						<div class="des-2">CHANDELIERS</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="products pl-150 pr-165 pt-10 screen">
+			<div class="box pt-10">
+				<div class="row">
+					<div class="col-3">
+						<h3 class="pt-10">Popular Products</h3>
+					</div>
+					<div class="col-9 view">
+						<a class="org" href="#">view all</a>
+					</div>
+				</div>
+				 
+				<div class="row">
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Standing Lamp</p>
+							   <h5 class="card-title">N45,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card card-sale" style="width: 18rem;">
+							<div>
+								<div class="des-3">10% OFF</div>
+								<img src="images/Rectangle 18.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card-body">
+							   <p class="card-text">Wooden Chandelier</p>
+							   <h5 class="card-title">N45,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Pendant Lamp</p>
+							   <h5 class="card-title">N15,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 19.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Standing Lamp</p>
+							   <h5 class="card-title">N425,000</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Standing Lamp</p>
+							   <h5 class="card-title">N45,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Standing Lamp</p>
+							   <h5 class="card-title">N425,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 19.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Pendant Lamp</p>
+							   <h5 class="card-title">N15,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card card-sale" style="width: 18rem;">
+							<div>
+								<div class="des-3">10% OFF</div>
+								<img src="images/Rectangle 18.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card-body">
+							   <p class="card-text">Wooden Chandelierle</p>
+							   <h5 class="card-title">N45,000</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="space mobile ml-50 mr-50">
+				<div class="row">
+					<div class="col-6">
+						<h2 class=" fw-600">Shop By Space</h2>
+					</div>
+					<div class="col-6 view ra">
+						<a class="org" href="#">view all</a>
+					</div>
+				</div>
+				
+				<p class="">Select the type of appartment you want to light up</p>
+				<div class="row">
+					<div class="col-4">
+						<img class="rec" src="images/Rectangle 12mob.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Home</h4>
+					</div>
+					<div class="col-4">
+						<img class="rec" src="images/Rectangle 13mob.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Office</h4>
+					</div>
+					<div class="col-4">
+						<img class="rec" src="images/Rectangle 14mob.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Hotel</h4>
+					</div>
+				</div>
+			</div>
+
+		<div class="products ml-50 pt-10 mobile">
+			<div class="box pt-10">
+				<div class="row mr-50">
+					<div class="col-6">
+						<h2 class="pt-10 fw-600">Popular Products</h2>
+					</div>
+					<div class="col-6 view ra">
+						<a class="org" href="#">view all</a>
+					</div>
+				</div>
+				 
+				<div class="row">
+					<div class="col-4">
+						<div class="card" style="width: 19rem;">
+							<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Standing Lamp</p>
+							   <h5 class="card-title fw-600">N45,000 <span class="price ml-70 org">N60,000</span></h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 ml-50">
+						<div class="card card-sale" style="width: 19rem;">
+							<div>
+								<div class="des-3">10% OFF</div>
+								<img src="images/Rectangle 18.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card-body">
+							   <p class="card-text">Wooden Chandelier</p>
+							   <h5 class="card-title fw-600">N120,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="card ml-50" style="width: 14rem; height:480px;">
+							<img src="images/Rectangle 17mob-2.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Pendant Lamp</p>
+							   <h5 class="card-title fw-600">N120,000</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="ml-50 mr-50 mobile">
+				<div>
+					<h2 class="pt-10 fw-600">Featured Categories</h2>
+				</div>
+				<div class="photo jumbotron">
+					<div class="des-4">Chandeliers</div>
+				</div>
+			</div>
+
+			<div class="ml-50 mr-50 mobile">
+				<div>
+					<h2 class="pt-10 fw-600">Popular Categories</h2>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<img class="rec-2" src="images/Rectangle 12liv.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Living Room</h4>
+					</div>
+					<div class="col-4">
+						<img class="rec-2" src="images/Rectangle 12din.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Dining Table</h4>
+					</div>
+					<div class="col-4">
+						<img class="rec-2" src="images/Rectangle 13res.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Restaurant</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<img class="rec-2" src="images/Rectangle 12hom.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Home Cinema</h4>
+					</div>
+					<div class="col-4">
+						<img class="rec-2" src="images/Rectangle 13kit.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Kitchen</h4>
+					</div>
+					<div class="col-4">
+						<img class="rec-2" src="images/Rectangle 12box.png" alt="...">
+						<h4 class="ft-24-600 mt-20">Box Room</h4>
+					</div>
+				</div>
+			</div>
+			<div class="ml-50 mr-50 mt-40 mb-35 mobile">
+				<button class="btn btn-dark btn-wider">View All Products</button>
+			</div>
+
+
+			<div class="sale pl-150 pr-165 pt-10 screen">
+				<div class="row">
+					<div class="col-3">
+						<h3 class="pt-10">Poducts on Sale</h3>
+					</div>
+					<div class="col-9 view">
+						<a class="org" href="#">view all</a>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Standing Lamp</p>
+							   <h5 class="card-title">N45,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card card-sale" style="width: 18rem;">
+							<div>
+								<div class="des-3">10% OFF</div>
+								<img src="images/Rectangle 18.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card-body">
+							   <p class="card-text">Wooden Chandelier</p>
+							   <h5 class="card-title">N45,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Pendant Lamp</p>
+							   <h5 class="card-title">N15,000</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="card" style="width: 18rem;">
+							<img src="images/Rectangle 19.png" class="card-img-top" alt="...">
+							<div class="card-body">
+							   <p class="card-text">Standing Lamp</p>
+							   <h5 class="card-title">N425,000</h5>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+						<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+						<div class="card-body">
+						   <p class="card-text">Standing Lamp</p>
+						   <h5 class="card-title">N45,000</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+						<img src="images/Rectangle 17.png" class="card-img-top" alt="...">
+						<div class="card-body">
+						   <p class="card-text">Standing Lamp</p>
+						   <h5 class="card-title">N425,000</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+						<img src="images/Rectangle 19.png" class="card-img-top" alt="...">
+						<div class="card-body">
+						   <p class="card-text">Pendant Lamp</p>
+						   <h5 class="card-title">N15,000</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card card-sale" style="width: 18rem;">
+							<div>
+								<div class="des-3">10% OFF</div>
+								<img src="images/Rectangle 18.png" class="card-img-top" alt="...">
+							</div>
+						<div class="card-body">
+						   <p class="card-text">Wooden Chandelierle</p>
+						   <h5 class="card-title">N45,000</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- CTA -->
+	<section class="screen">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-6 cta-col-1">
+					<div class="row">
+						<div class="col-1">
+							<i class="far fa-envelope fa-2x cta-2x"></i>	
+						</div>
+						<div class="col-11 pt-8">
+							<p class="pl-10">Join our mailing list</p>
+						</div>
+					</div>
+					
+					<p>Subscribe to our newsletter to get updates on our latest offers!</p>
+					<input class="cta-input" type="email" name="email" placeholder="Enter email address here">
+					<button type="submit" class="btn btn-dark mt-30">Subscribe</button>
+				</div>
+				<div class="col-6 p-0">
+					<img src="images/Rectangle 23.png" class="card-img-top" alt="...">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- FOOTER -->
+	<footer class="mt-30 wht ft-11 screen">
+		<div class="info pt-40">
+			<div class="row pl-165 pr-165 mr-0">
+				<div class="col-3">
+					<img class="pb-10" src="images/logo2.svg" alt="...">
+					<p>//Talk about the company here//Brighten your nights with modern designer lighting from Thelightinghaus.com Our range features top brands and all the latest contemporary lighting styles to illuminate your home and garden.</p>
+				</div>
+				<div class="col-3 pt-10">
+					<h5 class="pt-10 pl-30">Quick Links</h5>
+					<ul class="footer-ul">
+						<li class="org">LIGHTING Explorer</li>
+						<li><a href="#">OFFICE</a></li>
+						<li><a href="#">HOTEL</a></li>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">MY ACCOUNT</a></li>
+						<li><a href="#">CART</a></li>
+					</ul>
+				</div>
+				<div class="col-3 pt-10">
+					<h5 class="pt-10">Connect</h5>
+					<p>Connect with us on social media</p>
+					<div>
+						<a href="#"><i class="fab fa-telegram mr-8"></i></a>
+						<a href="#"><i class="fab fa-whatsapp mr-8"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in mr-8"></i></a>
+						<a href="#"><i class="fab fa-youtube mr-8"></i></a>
+						<a href="#"><i class="fab fa-twitter mr-8"></i></a>
+						<a href="#"><i class="fab fa-facebook-f mr-8"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="col-3 pt-10">
+					<div class="row pt-10">
+						<div class="col-3 ra">
+							<img src="images/logo-yellow.svg" alt="">
+						</div>
+						<div class="col-9 p-0">
+							<p><strong class="ft-14">Download our mobile app</strong><br><span class="ft-12">Get access to exclusive offers</span></p>
+						</div>
+					</div>
+					<div>
+						<button type="button" class="btn btn-trans">
+							<div class="row">
+								<div class="col-2 ra pr-0">
+									<i class="fab fa-apple mr-10"></i>
+								</div>
+								<div class="col-10">
+									<p class="mb-0 la ft-10"><span class="ft-8">Download on the</span><br>App Store</p>
+								</div>
+							</div>
+						</button>
+						<button type="button" class="btn btn-trans ft-12">
+							<div class="row">
+								<div class="col-2 ra pr-0">
+									<i class="fab fa-google-play mr-10"></i>
+								</div>
+								<div class="col-10">
+									<p class="mb-0 la ft-10"><span class="ft-8">Get it on</span><br>Google Play</p>
+								</div>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-dark nav-1  pl-165 pr-165">
+			<ul class="navbar-nav"> 
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-phone-alt mr-10"></i>+234 802 501 8557</a>
+            </li>
+                
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-map-marker-alt mr-10"></i>35 Freedom Way, Lekki Phase 1, Lagos, Nigeria</a>
+            </li>
+                
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-envelope mr-10"></i>sales@thelightinghaus.com</a>
+            </li>
+        </ul>
+	</nav>
+		</div>
+		
+	</footer>
+
+</body>
+</html>
